@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Голосоломка</string>
+
+    <string name="Hello_present"> </string>
+    <string name="Hello_save_state">Запомнить ваш выбор?</string>
+    <string name="Hello_api_state_deprecated">Здравствуйте. Ваше приложение "Голосоломка" требуется обновить. Текущая версия будет поддерживаться еще некоторое время. Просьба зайти на ваш магазин приложений и обновиться. Спасибо.</string>
+    <string name="Hello_api_state_close">Здравствуйте. Ваше приложение "Голосоломка" требуется срочно обновить. Текущая версия не работает. Просьба зайти на ваш магазин приложений и обновиться. Спасибо.</string>
+
+    <string name="main_balance">Ваш баланс: %1$s мин.</string>
+    <string name="main_menu_sms_mode">Необходима регистрация для совершения данной операции.</string>
+
+    <string name="register_present"> </string>
+    <string name="register_sms">Для успешной регистрации вам необходимо ввести номер вашего сотового телефона в международном формате (Пример +79081234567), после этого вам будет выслано смс-сообщение с кодом подтверждения. </string>
+    <string name="register_captcha">Введите символы</string>
+    <string name="register_sms_code">Пожалуйста, введите код подтверждения из полученного смс в данное поле</string>
+
+    <string name="choose_voice_text">Голоса, которые Вы можете использовать при розыгрыше.</string>
+
+    <string name="fill_balance_item1">Купить 5 минут за 1,99$</string>
+    <string name="fill_balance_item2">Купить 10 минут за 2,99$</string>
+    <string name="fill_balance_item3">Купить 20 минут за 4,99$</string>
+    <string name="fill_balance_sms">Пополнить баланс через SMS</string>
+    <string name="fill_balance_fill_ok">Ваш баланс пополнен.</string>
+
+    <string name="add_number_text">Список привязанных номеров к приложению. Если у вас привязано более одного номера, то вы можете переключаться между ними.</string>
+    <string name="Add_number_list_empty">Ни один номер не привязан.</string>
+    <string name="add_number_delete_ok">Выбранный номер успешно удален.</string>
+
+    <string name="action_settings">Настройки</string>
+    <string name="action_how_to">Подсказка</string>
+    <string name="action_info">Информация</string>
+    <string name="action_work_state">Режим работы</string>
+
+    <string name="dialog_title_warning">Предупреждение</string>
+    <string name="dialog_title_error">Ошибка</string>
+    <string name="dialog_captcha_text">Введите символы.</string>
+    <string name="dialog_no_internet_message">У вас отсутствует интернет подключение, для работы с приложением нужен интернет.</string>
+    <string name="dialog_no_internet_rus_message">Вы можете заказать розыгрыш через СМС. Розыгрыш через интернет не доступен. Проверьте ваше подключение.</string>
+    <string name="dialog_internet_rus_message">Выберите один из двух предложенных ниже режимов работы приложения:</string>
+    <string name="dialog_choose_number_message">Активировать данный номер?</string>
+    <string name="dialog_sms_text">Введите код с SMS сообщения.</string>
+
+    <string name="label_home">Домашний</string>
+    <string name="label_mobile">Мобильный</string>
+    <string name="label_work">Рабочий</string>
+    <string name="label_work_fax">Рабочий факс</string>
+    <string name="label_home_fax">Домашний факс</string>
+    <string name="label_pager">Пейджер</string>
+    <string name="label_other">Другой</string>
+
+    <string name="btn_registration">Зарегистрироваться</string>
+    <string name="btn_yes">ОК</string>
+    <string name="btn_cancel">Отмена</string>
+    <string name="btn_no">Нет</string>
+    <string name="btn_resume">Продолжить</string>
+    <string name="btn_attach">Привязать</string>
+    <string name="btn_check">Проверить</string>
+    <string name="btn_work_with_sms">Через SMS</string>
+    <string name="btn_work_with_http">Через Интернет</string>
+    <string name="btn_call">Позвонить через Интернет</string>
+    <string name="btn_callsms">Позвонить через SMS</string>
+    <string name="btn_send_code">Отправить код</string>
+
+    <string name="contextmenu_delete">Удалить</string>
+
+    <string name="event_call_A">Звоним Вам…</string>
+    <string name="event_call_B">Звоним абоненту Б…</string>
+    <string name="event_fail_call_A">Невозможно дозвониться вам…</string>
+    <string name="event_fail_call_B">Невозможно дозвониться до Б…</string>
+    <string name="event_pickup_A">Вы подняли трубку…</string>
+    <string name="event_pickup_B">Соединение установлено…</string>
+    <string name="event_discard_A">Вы сбросили вызов…</string>
+    <string name="event_final">Вызов завершен…</string>
+    <string name="event_wait">Обработка звонка…</string>
+
+    <string name="voice_1">Дед Мороз</string>
+    <string name="voice_2">Злодей</string>
+    <string name="voice_3">Гелиевый</string>
+    <string name="voice_4">Мужской</string>
+    <string name="voice_5">Женский</string>
+    <string name="voice_6">Мультяшка</string>
+    <string name="voice_7">Бурундук</string>
+    <string name="voice_8">Эхо</string>
+    <string name="voice_9">Пришелец</string>
+    <string name="voice_10">Дракон</string>
+
+    <string name="Hint_phone_plus">+</string>
+    <string name="Hint_phone_number">XXXXXXXXXXX</string>
+
+    <string name="add_number_yournumber">   (Активный номер)</string>
+    <string name="info_text_empty">Нет информации.</string>
+
+    <string name="Error_internet_connect">Подключение к сети недоступно. Пожалуйста, проверьте наличие интернет соеднения.</string>
+    <string name="Error_server_service_not_support">Сервис временно недоступен. Пожалуйста, попробуйте позже.</string>
+    <string name="Error_server__1">Сервис временно недоступен. Пожалуйста, попробуйте позже.</string>
+    <string name="Error_server_23_captcha">Вы ввели неверные символы.</string>
+    <string name="Error_server_23_sms">Вы ввели неверный код из SMS.</string>
+    <string name="Error_server_40">Вы заблокированы на запрос кода через смс. Система позволяет запрашивать смс код подтверждения 1 раз в 5 минут далее после 4 неудачных попыток вы будете заблокированы на 24 часа. Последующая неудачная попытка приведет к болной блокировке сервиса,которую можно снять только обратившись в техническую поддержку.</string>
+    <string name="Error_server_41">На вашем аккаунте уже есть заказ звонка.</string>
+    <string name="Error_server_42">Ошибка создания звонка. Звонок не будет создан.</string>
+    <string name="Error_server_43">Номер уже зарегистрирован</string>
+    <string name="Error_server_46">Ошибка создания звонка. Нет оператора связи для выбрнного направления</string>
+    <string name="Error_server_47">У вас недостаточно средств для совершения звонка. Необходимо пополнить баланс.</string>
+    <string name="Error_server_48">Номер уже используется.</string>
+    <string name="Error_server_60">Купленный продукт не прошел проверку подлинности. Пожалуйста обратитесь в службу технической поддержки сервиса "Голосоломка".</string>
+    <string name="Error_server_63">Купленный продукт не прошел проверку подлинности. Пожалуйста обратитесь в службу технической поддержки сервиса "Голосоломка".</string>
+    <string name="Error_same_number">Вы не можете разыграть самого себя</string>
+    <string name="Error_wrong_number">Введен некорректный номер. Допустимый формат номера - международный.</string>
+    <string name="Error_wrong_choose_number">Выбранный вами номер уже активен.</string>
+    <string name="Error_service_not_found">Техническая проблема.</string>
+    <string name="Internal_Server_Error">Техническая проблема.</string>
+    <string name="Error_delete_same_number">Сначала активируйте другой номер.</string>
+
+</resources>
