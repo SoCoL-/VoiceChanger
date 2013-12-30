@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Dialog_Message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dip"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:text="@string/dialog_captcha_text"/>
+
+    <ImageView
+        android:id="@+id/Dialog_Captcha"
+        android:layout_width="180dip"
+        android:layout_height="50dip"
+        android:layout_below="@+id/Dialog_Message"
+        android:layout_margin="10dip"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/app_name"/>
+
+    <EditText
+        android:id="@+id/Dialog_Edit"
+        android:layout_width="match_parent"
+        android:layout_height="60dip"
+        android:layout_below="@+id/Dialog_Captcha"
+        android:layout_margin="10dip"
+        android:inputType="text"/>
+
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_2">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dip">
+
+            <Button
+                android:id="@+id/Fill_Item1"
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="@string/fill_balance_item1"
+                android:background="@drawable/btn_drawable1"/>
+
+            <Button
+                android:id="@+id/Fill_Item2"
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="@string/fill_balance_item2"
+                android:background="@drawable/btn_drawable1"/>
+
+            <Button
+                android:id="@+id/Fill_Item3"
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="@string/fill_balance_item3"
+                android:background="@drawable/btn_drawable1"/>
+
+            <Button
+                android:id="@+id/Fill_SMS"
+                android:layout_width="match_parent"
+                android:layout_height="60dip"
+                android:layout_margin="10dip"
+                android:textSize="18sp"
+                android:textColor="@color/black"
+                android:text="@string/fill_balance_sms"
+                android:background="@drawable/btn_drawable1"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
